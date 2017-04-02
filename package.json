@@ -1,0 +1,43 @@
+{
+  "name": "babel-plugin-config-export",
+  "version": "0.0.0",
+  "description": "My brilliant module",
+  "license": "MIT",
+  "repository": "jamestalmage/babel-plugin-config-export",
+  "author": {
+    "name": "James Talmage",
+    "email": "james@talmage.io",
+    "url": "github.com/jamestalmage"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "babel",
+    "plugin",
+    "config",
+    "export"
+  ],
+  "dependencies": {
+    "babel-value": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-core": "^6.24.0",
+    "coveralls": "^2.11.12",
+    "nyc": "^10.0.0",
+    "xo": "^0.17.0"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
