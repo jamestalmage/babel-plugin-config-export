@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-config-export",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "My brilliant module",
   "license": "MIT",
   "repository": "jamestalmage/babel-plugin-config-export",
